@@ -47,10 +47,9 @@ from multiprocessing import Process, Pool, Array, Lock, Value, cpu_count
 
 import spherepoints
 import pdbatoms
-#import fileops
 
-curdir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append( "%s/../utils" % curdir)
+#curdir = os.path.dirname(os.path.abspath(__file__))
+#sys.path.append( "%s/../utils" % curdir)
 from struct_methods import SyncPrint, SyncErrPrint
 from fileops import *
 from delayed_keyboard_interrupt import DelayedKeyboardInterrupt
